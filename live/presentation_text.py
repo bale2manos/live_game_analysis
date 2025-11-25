@@ -747,17 +747,39 @@ def plot_jugadores_destacados_page(analysis: dict) -> plt.Figure:
                     ha='center', va='center', fontsize=12, color='#222222')
 
             x_pos += x_spacing
+        # Si no hay jugadores no movemos la posición
+        if not players:
+            return y_start
+
+        # Calcular y devolver la coordenada Y más baja usada por esta sección
+        # (se usa para que la siguiente sección no se solape)
+        # El bloque de estadísticas se dibuja en y_pos - 0.07, así que dejamos
+        # un pequeño margen adicional al devolver la posición.
+        bottom_y = y_pos - 0.12
+        return bottom_y
 
     ax = fig.add_subplot(111)
     ax.axis('off')
 
-    # Dibujar jugadores locales
-    draw_players(ax, hot_loc, x_start=0.1, y_start=0.8, color='#e67e22', title="Jugadores en racha")
-    draw_players(ax, cold_loc, x_start=0.1, y_start=0.6, color='#3498db', title="Jugadores helados")
+    # Dibujar jugadores locales (ajustar dinámicamente para evitar solapamientos)
+    hot_bottom_loc = draw_players(ax, hot_loc, x_start=0.1, y_start=0.8, color='#e67e22', title="Jugadores en racha")
+    # Posición por defecto para la sección "cold"
+    default_cold_loc_start = 0.6
+    spacing_between_sections = 0.08
+    if hot_bottom_loc <= default_cold_loc_start:
+        cold_loc_start = hot_bottom_loc - spacing_between_sections
+    else:
+        cold_loc_start = default_cold_loc_start
+    draw_players(ax, cold_loc, x_start=0.1, y_start=cold_loc_start, color='#3498db', title="Jugadores helados")
 
-    # Dibujar jugadores visitantes
-    draw_players(ax, hot_vis, x_start=0.6, y_start=0.8, color='#e67e22', title="Jugadores en racha")
-    draw_players(ax, cold_vis, x_start=0.6, y_start=0.6, color='#3498db', title="Jugadores helados")
+    # Dibujar jugadores visitantes (idem)
+    hot_bottom_vis = draw_players(ax, hot_vis, x_start=0.6, y_start=0.8, color='#e67e22', title="Jugadores en racha")
+    default_cold_vis_start = 0.6
+    if hot_bottom_vis <= default_cold_vis_start:
+        cold_vis_start = hot_bottom_vis - spacing_between_sections
+    else:
+        cold_vis_start = default_cold_vis_start
+    draw_players(ax, cold_vis, x_start=0.6, y_start=cold_vis_start, color='#3498db', title="Jugadores helados")
 
     # Leyenda
     legend_text = "TS: True Shooting %  |  Vol: Volumen de posesiones usadas"

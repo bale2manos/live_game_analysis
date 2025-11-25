@@ -251,11 +251,19 @@ def analyze_game(norm_json):
     # Alerta si el número de faltas es >= cuarto actual
     foul_threshold = quarter
 
-    local_pf = [format_player_name(p["name"], p.get("dorsal", "")) for p in local["players"] if p["pf"] >= foul_threshold]
+    local_pf = [
+        format_player_name(p["name"], p.get("dorsal", ""))
+        for p in local["players"]
+        if p["pf"] >= foul_threshold and str(p.get("name", "")).strip().casefold() != "team total"
+    ]
     if local_pf:
         alerts.append(f"Nuestros jugadores con {foul_threshold} o más faltas (cuarto {quarter}): " + ", ".join(local_pf))
 
-    visitor_pf = [format_player_name(p["name"], p.get("dorsal", "")) for p in visitor["players"] if p["pf"] >= foul_threshold]
+    visitor_pf = [
+        format_player_name(p["name"], p.get("dorsal", ""))
+        for p in visitor["players"]
+        if p["pf"] >= foul_threshold and str(p.get("name", "")).strip().casefold() != "team total"
+    ]
     if visitor_pf:
         alerts.append(f"Jugadores rivales con {foul_threshold} o más faltas (cuarto {quarter}): " + ", ".join(visitor_pf))
     # Análisis jugadores

@@ -12,3 +12,9 @@ logs/
 *.log
 .venv/
 venv/
+/output/
+*/__pycache__/
+
+
+live/__pycache__/presentation_text.cpython-312.pyc
+live/__pycache__/stats_engine.cpython-312.pyc
