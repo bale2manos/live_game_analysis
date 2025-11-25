@@ -1,0 +1,1254 @@
+{
+  "group": "Liga Regular \"B-B\"",
+  "season": "2025/2026",
+  "jornadas": [
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 1,
+      "matches": [
+        {
+          "id": "2487583",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "91-104"
+        },
+        {
+          "id": "2487579",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "77-85"
+        },
+        {
+          "id": "2487580",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "REAL CANOE N.C.",
+          "score": "74-77"
+        },
+        {
+          "id": "2487581",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "RECUCYM BAZU",
+          "score": "85-39"
+        },
+        {
+          "id": "2487582",
+          "local": "BALONCESTO TELDE",
+          "visitante": "ADC BOADILLA",
+          "score": "83-87"
+        },
+        {
+          "id": "2487577",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "UROS DE RIVAS",
+          "score": "61-83"
+        },
+        {
+          "id": "2487578",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "CB ARIDANE",
+          "score": "67-85"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 2,
+      "matches": [
+        {
+          "id": "2487586",
+          "local": "RECUCYM BAZU",
+          "visitante": "BALONCESTO TELDE",
+          "score": "58-62"
+        },
+        {
+          "id": "2487590",
+          "local": "UROS DE RIVAS",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "97-57"
+        },
+        {
+          "id": "2487589",
+          "local": "CB ARIDANE",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "89-79"
+        },
+        {
+          "id": "2487588",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "94-80"
+        },
+        {
+          "id": "2487584",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "82-84"
+        },
+        {
+          "id": "2487585",
+          "local": "ADC BOADILLA",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "80-86"
+        },
+        {
+          "id": "2487587",
+          "local": "REAL CANOE N.C.",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "65-83"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 3,
+      "matches": [
+        {
+          "id": "2487593",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "CB ARIDANE",
+          "score": "82-74"
+        },
+        {
+          "id": "2487594",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "80-60"
+        },
+        {
+          "id": "2487596",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "RECUCYM BAZU",
+          "score": "72-69"
+        },
+        {
+          "id": "2487597",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "ADC BOADILLA",
+          "score": "98-88"
+        },
+        {
+          "id": "2487595",
+          "local": "BALONCESTO TELDE",
+          "visitante": "REAL CANOE N.C.",
+          "score": "62-88"
+        },
+        {
+          "id": "2487591",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "82-76"
+        },
+        {
+          "id": "2487592",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "UROS DE RIVAS",
+          "score": "76-70"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 4,
+      "matches": [
+        {
+          "id": "2487601",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "BALONCESTO TELDE",
+          "score": "60-74"
+        },
+        {
+          "id": "2487598",
+          "local": "ADC BOADILLA",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "74-72"
+        },
+        {
+          "id": "2487599",
+          "local": "RECUCYM BAZU",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "81-85"
+        },
+        {
+          "id": "2487603",
+          "local": "UROS DE RIVAS",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "89-82"
+        },
+        {
+          "id": "2487600",
+          "local": "REAL CANOE N.C.",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "82-77"
+        },
+        {
+          "id": "2487604",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "59-78"
+        },
+        {
+          "id": "2487602",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "CB ARIDANE",
+          "score": "81-80"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 5,
+      "matches": [
+        {
+          "id": "2487606",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "91-64"
+        },
+        {
+          "id": "2487608",
+          "local": "BALONCESTO TELDE",
+          "visitante": "CB ARIDANE",
+          "score": "71-65"
+        },
+        {
+          "id": "2487611",
+          "local": "ADC BOADILLA",
+          "visitante": "RECUCYM BAZU",
+          "score": "61-79"
+        },
+        {
+          "id": "2487609",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "88-93"
+        },
+        {
+          "id": "2487610",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "REAL CANOE N.C.",
+          "score": "69-85"
+        },
+        {
+          "id": "2487605",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "82-69"
+        },
+        {
+          "id": "2487607",
+          "local": "UROS DE RIVAS",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "68-66"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 6,
+      "matches": [
+        {
+          "id": "2487616",
+          "local": "UROS DE RIVAS",
+          "visitante": "BALONCESTO TELDE",
+          "score": "82-71"
+        },
+        {
+          "id": "2487612",
+          "local": "RECUCYM BAZU",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "65-53"
+        },
+        {
+          "id": "2487614",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "77-83"
+        },
+        {
+          "id": "2487615",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "CB ARIDANE",
+          "score": "78-97"
+        },
+        {
+          "id": "2487613",
+          "local": "REAL CANOE N.C.",
+          "visitante": "ADC BOADILLA",
+          "score": "83-67"
+        },
+        {
+          "id": "2487618",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "92-89"
+        },
+        {
+          "id": "2487617",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "51-83"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 7,
+      "matches": [
+        {
+          "id": "2487623",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "CB ARIDANE",
+          "score": "98-89"
+        },
+        {
+          "id": "2487624",
+          "local": "ADC BOADILLA",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "81-86"
+        },
+        {
+          "id": "2487625",
+          "local": "RECUCYM BAZU",
+          "visitante": "REAL CANOE N.C.",
+          "score": "71-76"
+        },
+        {
+          "id": "2487622",
+          "local": "UROS DE RIVAS",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "86-65"
+        },
+        {
+          "id": "2487620",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "65-62"
+        },
+        {
+          "id": "2487619",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "71-88"
+        },
+        {
+          "id": "2487621",
+          "local": "BALONCESTO TELDE",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "84-62"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 8,
+      "matches": [
+        {
+          "id": "2487629",
+          "local": "UROS DE RIVAS",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "85-75"
+        },
+        {
+          "id": "2487631",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "BALONCESTO TELDE",
+          "score": "73-57"
+        },
+        {
+          "id": "2487632",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "62-68"
+        },
+        {
+          "id": "2487628",
+          "local": "CB ARIDANE",
+          "visitante": "ADC BOADILLA",
+          "score": "91-79"
+        },
+        {
+          "id": "2487626",
+          "local": "REAL CANOE N.C.",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "87-74"
+        },
+        {
+          "id": "2487630",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "94-111"
+        },
+        {
+          "id": "2487627",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "RECUCYM BAZU",
+          "score": "64-55"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 9,
+      "matches": [
+        {
+          "id": "2487637",
+          "local": "ADC BOADILLA",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487634",
+          "local": "BALONCESTO TELDE",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487638",
+          "local": "RECUCYM BAZU",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487639",
+          "local": "REAL CANOE N.C.",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487635",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487636",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487633",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 10,
+      "matches": [
+        {
+          "id": "2487642",
+          "local": "UROS DE RIVAS",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487641",
+          "local": "CB ARIDANE",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487645",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487644",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487643",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487646",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487640",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 11,
+      "matches": [
+        {
+          "id": "2487649",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487653",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487650",
+          "local": "ADC BOADILLA",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487651",
+          "local": "RECUCYM BAZU",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487652",
+          "local": "REAL CANOE N.C.",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487648",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487647",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 12,
+      "matches": [
+        {
+          "id": "2487660",
+          "local": "BALONCESTO TELDE",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487655",
+          "local": "UROS DE RIVAS",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487658",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487657",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487659",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487654",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487656",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 13,
+      "matches": [
+        {
+          "id": "2487663",
+          "local": "ADC BOADILLA",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487664",
+          "local": "RECUCYM BAZU",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487666",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487667",
+          "local": "CB ARIDANE",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487665",
+          "local": "REAL CANOE N.C.",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487661",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487662",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 14,
+      "matches": [
+        {
+          "id": "2487673",
+          "local": "ADC BOADILLA",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487672",
+          "local": "RECUCYM BAZU",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487668",
+          "local": "UROS DE RIVAS",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487669",
+          "local": "CB ARIDANE",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487670",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487671",
+          "local": "REAL CANOE N.C.",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487674",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 15,
+      "matches": [
+        {
+          "id": "2487679",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487680",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487676",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487678",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487675",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487677",
+          "local": "BALONCESTO TELDE",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487681",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 16,
+      "matches": [
+        {
+          "id": "2487688",
+          "local": "ADC BOADILLA",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487687",
+          "local": "RECUCYM BAZU",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487683",
+          "local": "UROS DE RIVAS",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487684",
+          "local": "CB ARIDANE",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487685",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487686",
+          "local": "REAL CANOE N.C.",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487682",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 17,
+      "matches": [
+        {
+          "id": "2487693",
+          "local": "CB ARIDANE",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487694",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487695",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487691",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487690",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487689",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487692",
+          "local": "BALONCESTO TELDE",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 18,
+      "matches": [
+        {
+          "id": "2487699",
+          "local": "CB ARIDANE",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487702",
+          "local": "RECUCYM BAZU",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487700",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487696",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487701",
+          "local": "REAL CANOE N.C.",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487698",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487697",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 19,
+      "matches": [
+        {
+          "id": "2487704",
+          "local": "ADC BOADILLA",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487706",
+          "local": "CB ARIDANE",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487709",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487708",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487705",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487707",
+          "local": "BALONCESTO TELDE",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487703",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 20,
+      "matches": [
+        {
+          "id": "2487710",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487714",
+          "local": "CB ARIDANE",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487715",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487711",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487716",
+          "local": "REAL CANOE N.C.",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487713",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487712",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 21,
+      "matches": [
+        {
+          "id": "2487719",
+          "local": "ADC BOADILLA",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487718",
+          "local": "RECUCYM BAZU",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487721",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487723",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487720",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487717",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487722",
+          "local": "BALONCESTO TELDE",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 22,
+      "matches": [
+        {
+          "id": "2487725",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487728",
+          "local": "UROS DE RIVAS",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487729",
+          "local": "CB ARIDANE",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487730",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487726",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487724",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487727",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 23,
+      "matches": [
+        {
+          "id": "2487737",
+          "local": "BALONCESTO TELDE",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487734",
+          "local": "ADC BOADILLA",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487733",
+          "local": "RECUCYM BAZU",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487732",
+          "local": "REAL CANOE N.C.",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487736",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487735",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487731",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 24,
+      "matches": [
+        {
+          "id": "2487743",
+          "local": "UROS DE RIVAS",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487744",
+          "local": "CB ARIDANE",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487740",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487741",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487739",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487738",
+          "local": "BALONCESTO TELDE",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487742",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 25,
+      "matches": [
+        {
+          "id": "2487751",
+          "local": "EB FELIPE ANTÓN",
+          "visitante": "BALONCESTO TELDE",
+          "score": "*-*"
+        },
+        {
+          "id": "2487749",
+          "local": "ADC BOADILLA",
+          "visitante": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487748",
+          "local": "RECUCYM BAZU",
+          "visitante": "GRUPO EGIDO PINTOBASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487745",
+          "local": "CB ARIDANE",
+          "visitante": "BALONCESTO TALAVERA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487746",
+          "local": "LUJISA GUADALAJARA BASKET",
+          "visitante": "UROS DE RIVAS",
+          "score": "*-*"
+        },
+        {
+          "id": "2487747",
+          "local": "REAL CANOE N.C.",
+          "visitante": "AUTOCARES RODRÍGUEZ",
+          "score": "*-*"
+        },
+        {
+          "id": "2487750",
+          "local": "ZENTRO BASKET MADRID",
+          "visitante": "C.B. TRES CANTOS",
+          "score": "*-*"
+        }
+      ]
+    },
+    {
+      "fase": "Liga Regular \"B-B\"",
+      "jornada": 26,
+      "matches": [
+        {
+          "id": "2487755",
+          "local": "C. D. MENSAJERO ISLA DE LA PALMA",
+          "visitante": "RECUCYM BAZU",
+          "score": "*-*"
+        },
+        {
+          "id": "2487753",
+          "local": "BALONCESTO TELDE",
+          "visitante": "ZENTRO BASKET MADRID",
+          "score": "*-*"
+        },
+        {
+          "id": "2487754",
+          "local": "C.B. TRES CANTOS",
+          "visitante": "ADC BOADILLA",
+          "score": "*-*"
+        },
+        {
+          "id": "2487752",
+          "local": "BALONCESTO TALAVERA",
+          "visitante": "EB FELIPE ANTÓN",
+          "score": "*-*"
+        },
+        {
+          "id": "2487756",
+          "local": "GRUPO EGIDO PINTOBASKET",
+          "visitante": "REAL CANOE N.C.",
+          "score": "*-*"
+        },
+        {
+          "id": "2487757",
+          "local": "AUTOCARES RODRÍGUEZ",
+          "visitante": "LUJISA GUADALAJARA BASKET",
+          "score": "*-*"
+        },
+        {
+          "id": "2487758",
+          "local": "UROS DE RIVAS",
+          "visitante": "CB ARIDANE",
+          "score": "*-*"
+        }
+      ]
+    }
+  ]
+}
