@@ -77,7 +77,7 @@ def main(csv_file):
 
 if __name__ == "__main__":
     # Nombre del archivo por defecto
-    default_filename = "./data/stats_basket_aranjuez_vs_gsd_alcalá_26-11-25.csv"
+    default_filename = "./data/stats-pizarro-vs-basket_aranjuez-23-11-2025.csv"
     
     # Permite pasar el nombre del archivo como argumento: python main_aranjuez.py otro_archivo.csv
     if len(sys.argv) > 1:

@@ -107,13 +107,19 @@ def extract_game_info_from_filename(filename):
     """
     base = os.path.basename(filename)
     name_no_ext = os.path.splitext(base)[0]
-    
-    match = re.search(r'stats_(.+?)_vs_(.+?)_(\d{1,2}-\d{1,2}-\d{2,4})$', name_no_ext)
-    
+    # Aceptar separadores '-' o '_' y prefijo 'stats-' o 'stats_'
+    # Ejemplos válidos:
+    #  stats-pizarro-vs-basket_aranjuez-23-11-2025.csv
+    #  stats_pizarro_vs_basket_aranjuez_23_11_2025.csv
+    pattern = r'^(?:stats[-_])(.+?)[-_]vs[-_](.+?)[-_](\d{1,2}[-_]\d{1,2}[-_]\d{2,4})$'
+    match = re.search(pattern, name_no_ext, flags=re.IGNORECASE)
+
     if match:
-        local_raw = match.group(1).replace('_', ' ').title()
-        visitor_raw = match.group(2).replace('_', ' ').title()
-        date_raw = match.group(3)
+        # Reemplazar guiones/underscores por espacios y normalizar capitalización
+        local_raw = match.group(1).replace('_', ' ').replace('-', ' ').strip().title()
+        visitor_raw = match.group(2).replace('_', ' ').replace('-', ' ').strip().title()
+        # Estandarizar separador de fecha a '-'
+        date_raw = match.group(3).replace('_', '-')
         return normalize_name(local_raw), normalize_name(visitor_raw), date_raw
     else:
         return "Local Team", "Visitor Team", "Unknown Date"
@@ -150,14 +156,20 @@ def parse_csv_to_json(csv_filepath):
                         found_first_total = True
                     else:
                         visitor_score = score
-                        dummy = map_row_to_player_stats(row)
-                        dummy['name'] = "Team Total"
-                        dummy['dorsal'] = 0
-                        visitor_players.append(dummy)
+                        # Sólo añadir 'Team Total' si no hay jugadores individuales
+                        if not visitor_players:
+                            dummy = map_row_to_player_stats(row)
+                            dummy['name'] = "Team Total"
+                            dummy['dorsal'] = 0
+                            visitor_players.append(dummy)
                     continue
-
+                # Si aún no hemos alcanzado la fila 'Total' del primer equipo,
+                # los siguientes rows pertenecen al equipo local; en caso
+                # contrario pertenecen al visitante.
                 if not found_first_total:
                     local_players.append(map_row_to_player_stats(row))
+                else:
+                    visitor_players.append(map_row_to_player_stats(row))
                     
     except UnicodeDecodeError:
         print("Error: El archivo no parece ser UTF-8 válido.")
@@ -165,6 +177,20 @@ def parse_csv_to_json(csv_filepath):
     except Exception as e:
         print(f"Error general: {e}")
         return {}
+
+    # Forzar que "Basket Aranjuez" sea siempre el equipo local
+    def _is_basket_aranjuez(name: str) -> bool:
+        if not name:
+            return False
+        s = name.lower()
+        # Aceptar variantes que contengan ambas palabras o solo 'aranjuez'
+        return ("basket" in s and "aranjuez" in s) or (s.strip() == "aranjuez")
+
+    if _is_basket_aranjuez(visitor_team_name) and not _is_basket_aranjuez(local_team_name):
+        # Intercambiar nombres, listas de jugadores y puntuaciones
+        local_team_name, visitor_team_name = visitor_team_name, local_team_name
+        local_players, visitor_players = visitor_players, local_players
+        local_score, visitor_score = visitor_score, local_score
 
     game_data = {
         "game_id": f"{local_team_name} vs {visitor_team_name} - {game_date}",
@@ -184,7 +210,7 @@ def parse_csv_to_json(csv_filepath):
     return game_data
 
 if __name__ == "__main__":
-    filename = "./data/stats_basket_aranjuez_vs_gsd_alcalá_26-11-25.csv"
+    filename = "./data/stats-pizarro-vs-basket_aranjuez-23-11-2025.csv"
     if len(sys.argv) > 1:
         filename = sys.argv[1]
 
