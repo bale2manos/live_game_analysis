@@ -101,11 +101,16 @@ def map_row_to_player_stats(row):
         "fd": safe_int(row.get('PFD'))
     }
 
-def extract_game_info_from_filename(filename):
+def extract_game_info_from_filename(filename, original_filename=None):
     """
     Extrae nombres de equipos y fecha del nombre del archivo.
     """
-    base = os.path.basename(filename)
+    # Prefer the original filename (as uploaded) when available, because
+    # Streamlit/file-uploaders often save files to a temp name.
+    if original_filename:
+        base = os.path.basename(original_filename)
+    else:
+        base = os.path.basename(filename)
     name_no_ext = os.path.splitext(base)[0]
     # Aceptar separadores '-' o '_' y prefijo 'stats-' o 'stats_'
     # Ejemplos válidos:
@@ -124,8 +129,11 @@ def extract_game_info_from_filename(filename):
     else:
         return "Local Team", "Visitor Team", "Unknown Date"
 
-def parse_csv_to_json(csv_filepath):
-    local_team_name, visitor_team_name, game_date = extract_game_info_from_filename(csv_filepath)
+def parse_csv_to_json(csv_filepath, original_filename: str = None):
+    print(f"Leyendo archivo CSV: {csv_filepath} (original name: {original_filename})")
+    local_team_name, visitor_team_name, game_date = extract_game_info_from_filename(
+        csv_filepath, original_filename=original_filename
+    )
     
     local_players = []
     visitor_players = [] 
