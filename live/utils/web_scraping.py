@@ -35,6 +35,10 @@ def set_base_url(new_url):
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+
 def init_driver():
     options = Options()
     options.binary_location = "/usr/bin/chromium"
@@ -44,13 +48,17 @@ def init_driver():
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-dev-tools")
-    options.add_argument("--disable-images")
-    options.add_argument("--window-size=1920x1080")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-infobars")
+    options.add_argument("--disable-extensions")
 
-    driver = webdriver.Chrome(
-        executable_path="/usr/bin/chromedriver",
-        options=options
-    )
+    # Service con ruta correcta del chromedriver instalado por apt
+    service = Service("/usr/bin/chromedriver")
+
+    # Inicializar webdriver según Selenium moderno
+    driver = webdriver.Chrome(service=service, options=options)
+
+    driver.set_page_load_timeout(20)
     return driver
 """
 def init_driver(minimized: bool = True):
