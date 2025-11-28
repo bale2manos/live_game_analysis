@@ -32,6 +32,27 @@ def set_base_url(new_url):
     BASE_URL = new_url
 
 # -------- UTILIDADES WEB DRIVER --------
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+def init_driver():
+    options = Options()
+    options.binary_location = "/usr/bin/chromium"
+
+    options.add_argument("--headless=new")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-dev-tools")
+    options.add_argument("--disable-images")
+    options.add_argument("--window-size=1920x1080")
+
+    driver = webdriver.Chrome(
+        executable_path="/usr/bin/chromedriver",
+        options=options
+    )
+    return driver
+"""
 def init_driver(minimized: bool = True):
     opts = webdriver.ChromeOptions()
     # set a fixed size so elements land where you expect
@@ -57,6 +78,7 @@ def init_driver(minimized: bool = True):
             pass
 
     return driver
+"""
 
 def accept_cookies(driver, short_timeout=0.5):
     """
