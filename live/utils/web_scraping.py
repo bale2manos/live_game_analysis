@@ -38,7 +38,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-"""
+
 def init_driver():
     options = Options()
     options.binary_location = "/usr/bin/chromium"
@@ -87,7 +87,7 @@ def init_driver(minimized: bool = True):
 
     return driver
 
-
+"""
 def accept_cookies(driver, short_timeout=0.5):
     """
     Cierra el banner de cookies de forma rápida:
