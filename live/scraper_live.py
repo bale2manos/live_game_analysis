@@ -136,18 +136,70 @@ def scrape_boxscore_live(driver, partido_id: str):
     local_name = local_name_el.text.strip() if local_name_el else "LOCAL"
     visit_name = visit_name_el.text.strip() if visit_name_el else "VISITANTE"
 
-    # ============= TABLAS DE JUGADORES (local y visitante) =============
-    tbodies = soup.select("h1.titulo-modulo + .responsive-scroll table tbody")[2:4]
+    # ====== EXTRACCIÓN DE TABLAS (ROBUSTO: A → B → SCROLL → FALLBACK) ======
 
-    if len(tbodies) < 2:
-        print(f"[ERROR] No se encontraron suficientes tablas de boxscore para el partido {partido_id}. Encontrados: {len(tbodies)}")
-        # Opcional: guardar HTML para depuración
-        debug_path = f"debug_boxscore_{partido_id}.html"
-        with open(debug_path, "w", encoding="utf-8") as f:
-            f.write(html)
-        print(f"[INFO] HTML guardado en {debug_path} para inspección.")
-        return None
+    tbodies = []
 
+    # ---------- MÉTODO A (partidos finalizados) ----------
+    tbodies = soup.select("h1.titulo-modulo + .responsive-scroll table tbody")
+    if len(tbodies) >= 2:
+        tbodies = tbodies[0:2]
+    else:
+        print("[WARN] Método A no encontró tablas. Probando método B...")
+
+        # ---------- MÉTODO B (partidos en vivo → AJAX dentro de #loader-data) ----------
+        # esperar a que el widget añada tablas
+        try:
+            wait.until(EC.presence_of_element_located(
+                (By.CSS_SELECTOR, "#loader-data .responsive-scroll table tbody")
+            ))
+            html = driver.page_source
+            soup = BeautifulSoup(html, "html.parser")
+            tbodies = soup.select("#loader-data .responsive-scroll table tbody")
+        except:
+            tbodies = []
+
+        if len(tbodies) >= 2:
+            tbodies = tbodies[0:2]
+        else:
+            print("[WARN] Método B tampoco encontró tablas. Probando scroll...")
+
+            # ---------- MÉTODO SCROLL + ESPERA EXTRA ----------
+            try:
+                driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(2)
+                html = driver.page_source
+                soup = BeautifulSoup(html, "html.parser")
+                tbodies = soup.select(".responsive-scroll table tbody")
+            except:
+                tbodies = []
+
+            if len(tbodies) >= 2:
+                tbodies = tbodies[0:2]
+            else:
+                print("[WARN] Ningún método encontró tablas. Fallback final...")
+
+                # ---------- FALLBACK: mirar innerHTML del loader-data ----------
+                try:
+                    loader_html = driver.execute_script(
+                        "return document.getElementById('loader-data')?.innerHTML;"
+                    )
+                    if loader_html:
+                        soup_loader = BeautifulSoup(loader_html, "html.parser")
+                        tbodies = soup_loader.select(".responsive-scroll table tbody")
+                except:
+                    tbodies = []
+
+                if len(tbodies) < 2:
+                    print(f"[ERROR] No se encontraron suficientes tablas para el partido {partido_id}. Encontrados: {len(tbodies)}")
+                    debug_path = f"debug_boxscore_{partido_id}.html"
+                    with open(debug_path, "w", encoding="utf-8") as f:
+                        f.write(html)
+                    print(f"[INFO] HTML guardado en {debug_path} para inspección.")
+                    return None
+
+    
+    
     def parse_team(tbody, team_name, team_score):
         players = []
         for tr in tbody.find_all("tr"):
